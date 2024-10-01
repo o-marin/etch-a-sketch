@@ -12,7 +12,7 @@ function addDiv(parentNode, containerDimension, gridSize) {
   div.style.width = `${(containerDimension/gridSize)-4}px`;
   div.style.height = `${(containerDimension/gridSize)-4}px`;
   div.addEventListener("mouseover", (event) => {
-    opacity += 0.05;
+    opacity += 0.1;
     let red= Math.floor(Math.random()*255);
     let green= Math.floor(Math.random()*255);
     let blue= Math.floor(Math.random()*255);
