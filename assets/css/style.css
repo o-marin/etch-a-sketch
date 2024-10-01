@@ -1,3 +1,5 @@
 body{
-    background-color: rgb(175,137,92,0.5);
+    /* background-color: rgb(175,137,92,0.5); */
+    background-color: #f0f0f0; /* Just to ensure it's visible */
+    color: #333; /* To see if text appears */
 }

@@ -16,7 +16,6 @@ function addDiv(parentNode, containerDimension, gridSize) {
     let red= Math.floor(Math.random()*255);
     let green= Math.floor(Math.random()*255);
     let blue= Math.floor(Math.random()*255);
-    console.log(red,green,blue)
     //background-color: rgb(red, green, blue);
     event.target.style.backgroundColor = `rgb(${red}, ${green},${blue}, ${opacity})`;
   });
